@@ -22,9 +22,12 @@
 
     .div1{display: flex;
         justify-content: center;
-        background-color: rgb(166, 166, 166);
-            font-size: 130px;
+        background-color: rgb(166, 166, 166); 
+        margin-left: -100PX;
+        margin-bottom: 50PX;
+            font-size: 140px;
             font-family:Georgia, 'Times New Roman', Times, serif;
+            
             
     }
     .div2{display: flex;
@@ -32,11 +35,17 @@
     }
     .div3{display: flex;
         background-color: rgb(166, 166, 166);
+        margin-right: 100PX;
+        margin-top: -50PX;
+
        
     }
 
-    .div4{
-        
+    .div4{ display: flex;
+        width: 100px;
+        height: 150px;
+      
+
     }
        
         
@@ -49,9 +58,10 @@
     }
     
 .div9 img{
-   margin-left: 70px;
+   margin-left: 50px;
    margin-top: 140px;
    position: absolute;
+   
   
 }
 
@@ -83,7 +93,7 @@
     display: flex;
     justify-content: center;
     font-size: 20px;
-    
+    margin-left: -100px;
 }
     
         
